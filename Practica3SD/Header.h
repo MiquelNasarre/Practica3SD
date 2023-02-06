@@ -8,12 +8,12 @@
 #define h 1e-7
 #define EPS 1e-10
 
-#define N 100
+#define N 2000
 #define Ndrop 20000
-#define muN 4000
+#define muN 1000
 #define Delta 1e-8
-#define muStart 0.94
-#define muEnd 0.95
+#define muStart 0.4
+#define muEnd 0.5
 
 /* A */
 //#define f(x, mu) ((mu) * (x) * (1 - (x)))
@@ -30,18 +30,18 @@
 //#define MuFI 4
 
 /* C */
-//#define f(x, mu) ((mu) * (x) * (1 - (x) * (x)))
-//#define df(x, mu) ((mu) * (1 - 2 * (x)))
-//#define EOInterval (3 * sqrt(3) / 2)
-//#define MuInit 2.35
-//#define MuFI 2
+#define f(x, mu) ((mu) * (x) * (1 - (x) * (x)))
+#define df(x, mu) ((mu) * (1 - 2 * (x)))
+#define EOInterval (3 * sqrt(3) / 2)
+#define MuInit 2.35
+#define MuFI 2
 
 /* D */
-#define f(x, mu) ((mu) * cos(pi * (x)))
-#define df(x, mu) ((mu) * (1 - 2 * (x)))
-#define EOInterval 1
-#define MuInit 0.66
-#define MuFI 0.4
+//#define f(x, mu) ((mu) * cos(pi * (x)))
+//#define df(x, mu) ((mu) * (1 - 2 * (x)))
+//#define EOInterval 1
+//#define MuInit 0.66
+//#define MuFI 0.4
 
 double* orbit(double x0, double mu);
 double** orbits(double x0);
