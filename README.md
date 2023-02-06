@@ -1,4 +1,8 @@
 # Practica3SD
+(IMPORTANT!! Aquesta no és la versió que he utilitzat per fer el seminari, aquesta dona millors resultats i corregeix 
+alguns errors. Una cosa interessant que podem veure amb aquesta clarament és que les successions de tau_k sembla que 
+tendeixen cap al mateix valor per totes les f's, és bastant interessant i amb l'anterior codi no es veia gens clar)
+
 Aquest és el projecte que conte tot el codi tant per generar els fitxers .dat per visualitzar les funcions 
 amb gnuplot, com les funcions per trobar les mu's. 
 ## Requeriments
@@ -18,4 +22,4 @@ de iteracions que farà i llençarà abans de començar a guardar punts, muN és
 que es troben al PDF guardats.
 
 Espero que amb aquesta explicació sigui fàcil d'entendre i fer correr el programa, el codi no esta gaire comentat però tot 
-s'entén prou be.
+s'entén prou bé.
