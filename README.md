@@ -5,6 +5,11 @@ tendeixen cap al mateix valor per totes les $f$'s, és bastant interessant i amb
 
 Aquest és el projecte que conte tot el codi tant per generar els fitxers .dat per visualitzar les funcions 
 amb gnuplot, com les funcions per trobar les $\mu$'s. 
+
+![SistemaDinamicDiscret](https://user-images.githubusercontent.com/124403865/219652981-bbc4ffdc-6fd3-444c-9806-ba8ea139fb19.PNG)
+
+Aquí veiem un exemple del tipus de plots que s'obtenen amb el programa.
+
 ## Requeriments
 - [Visual Studio](https://visualstudio.com) (és indispensable per fer que el programa funcioni com ha de funcionar)
 - [GnuPlot 5.4](http://www.gnuplot.info/) (per a poder pintar els fitxers de les òrbites)
